@@ -48,7 +48,8 @@ namespace PSDUIImporter
 //             item.transform.SetParent(canvas.transform, false);
 //             ParentDic[item.transform] =  parent.transform;
 //             return item.GetComponent<T>();
-//         }
+//         }
+
 
         /// <summary>
         /// 加载并实例化prefab，编辑器下不用Resources.Load，否则这些预设会打到安装包

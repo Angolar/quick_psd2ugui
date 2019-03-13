@@ -111,9 +111,10 @@ public class PSD2UGUISettingWizard : ScriptableWizard
         if (GUILayout.Button("创建"))
         {
             if (string.IsNullOrEmpty(m_config.m_commonAtlasPath) ||
-                string.IsNullOrEmpty(m_config.m_commonAtlasPath) ||
-                string.IsNullOrEmpty(m_config.m_commonAtlasPath) ||
-                string.IsNullOrEmpty(m_config.m_commonAtlasPath))
+                string.IsNullOrEmpty(m_config.m_commonAtlasName) ||
+                string.IsNullOrEmpty(m_config.m_fontPath) ||
+                string.IsNullOrEmpty(m_config.m_staticFontPath) ||
+                string.IsNullOrEmpty(m_config.m_psduiTemplatePath))
             {
                 ShowNotification(new GUIContent("配置路径不应该为空!"));
 
