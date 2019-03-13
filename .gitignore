@@ -12,7 +12,5 @@ psd2ugui.v12.suo
 *.userprefs
 *LuaProject
 /psd2ugui/.vs
-/psd2ugui/Assets/PSD2UGUI/PSD2UGUIConfig.asset
-/psd2ugui/Assets/PSD2UGUI/PSD2UGUIConfig.asset.meta
 /1.psd
 /MainUI.psd
